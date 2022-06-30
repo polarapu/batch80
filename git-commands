@@ -14,6 +14,7 @@ git status
 git add file1
 git status
 git config --list
+git config --list
 
 git config --global --unset user.name
 git config --global --unset user.email
