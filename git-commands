@@ -10,6 +10,11 @@ git commit -m "label" file1
 git status
 git log
 git show cid
+git status
+git add file1
+git status
+git config --list
+
 git config --global --unset user.name
 git config --global --unset user.email
 git config --list
