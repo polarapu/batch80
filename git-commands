@@ -2,10 +2,19 @@ git init
 
 git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
-hdfhdjfjsfgit add file1
+
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git log
+git show cid
+git status
+git add file1
 git status
 git config --list
-git configfjsdkskd --list
+git config --list
 
 git config --global --unset user.name
 git config --global --unset user.email
@@ -13,7 +22,7 @@ git config --list
 git status
 git add file1
 git status
-git commit -m "labfjsdkfksfkskel" file1
+git commit -m "label" file1
 git status
 git log
 git show cid
@@ -22,7 +31,7 @@ touch file1
 ls
 git status
 git add file1
-git statusfjsdkfksfklsldf
+git status
 git commit -m "label" file1
 git status
 git log
@@ -33,8 +42,8 @@ touch file2 file3 file4
 git status
 git add file2 file3 file4
 or
-git add .msdkkdsl
-orfjdsfkskdfksfllfsf
+git add .
+or
 git add *
 or
 git add -A
@@ -43,13 +52,13 @@ git commit -m "label"
 git log
 git show cid
 
-git add file1 kfskdfkksld (workspace to staging)
+git add file1  (workspace to staging)
 git reset head file1  (staging to workspace)
-sdjfksdkfksdlf
+
 git commit -m "label"  (staging to local)
 git reset --soft cid  (local to staging)
 
-git reset --mixed cidsjfjdskfksdlfd  (local to workspace)
+git reset --mixed cid  (local to workspace)
 
 
 git clone https://github.com/Sudhakathodi/repo1.git
@@ -62,17 +71,6 @@ git add file1
 git status
 git commit -m "label" file1
 git status
-git logfksdflsdlfls
-jfsjfksdkf
-flmdsfjjsdfjsdufoef
-
-
-
-
-
-
-
-
-kfjdsjfiksd
+git log
 git show cid
-git pushfjsdkflsdflsldf
+git push
